@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+body{
+    background-image: url(pic2.jpg);
+    background-size: 100% 700px;
+    
+}
+.container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 7%;
+    margin-left: 35%;
+    border-radius: 30px;
+}
+.child{
+   position: absolute;
+   margin-left: 100px;
+   
+       
+}
+#name{
+border: none; 
+background-color: black;
+border-bottom: 3px solid white;
+width: 300px;
+margin-left: -30px;
+height: 40px;
+
+}
+#b1{
+    background:greenyellow;
+    border: 2px solid aqua;
+    margin-left: -50px;
+    width: 100px;
+    height: 30px;
+    background-color:aqua ;
+    border-radius: 20px; 
+    box-shadow: 3px 2px 1px white;
+} p{
+    position: absolute;
+    margin-top: 60px;
+}
+#b2{
+    position: absolute;
+    margin-top:125px ;
+    margin-left: 120px;
+    background-color: blue;
+    border-radius: 10px;
+    border:2px solid blue;
+    color: white;
+    width: 40px;
+    font-size: 10px;
+}h1{
+    font-size: 30px;
+    font-weight: 30px;
+    margin-left: -50px;
+ } 
+#b1:hover{
+    cursor: pointer;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 30px;
+    text-shadow: 3px 2px 1px black;
+} 
+#b2:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: red;
+}
+p:hover{
+    cursor: pointer;
+}
+
+.container:hover{
+    cursor: pointer;
+}
